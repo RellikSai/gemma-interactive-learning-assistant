@@ -83,3 +83,19 @@ GEMMA_API_KEY=your_api_key_here
 ```bash
 streamlit run app.py
 ```
+
+---
+
+## 🔑 API Key Disclaimer
+
+This project uses the Google **Gemma** model through the Google GenAI API.
+
+For security reasons, the API key is **not included** in this repository. Instead, it is loaded from environment variables using a `.env` file.
+
+Create a `.env` file in the project root with:
+
+```env
+GEMMA_API_KEY=your_api_key_here
+```
+
+Replace `your_api_key_here` with your own API key before running the application.
